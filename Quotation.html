@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .invoice-container {
+            width: 97%;
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        .invoice-section {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .invoice-section table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .invoice-section th,
+        .invoice-section td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        .invoice-section .no-border th,
+        .invoice-section .no-border td {
+            border: none;
+        }
+        .invoice-section .border-bottom {
+            border-bottom: 1px solid #000;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="invoice-section no-border">
+          
+            <table>
+                
+                <tr>
+                    <td colspan="2"><strong>Company Name</strong></td>
+                    <td>Invoice No. <strong>GST/X/1154/23-24</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        CIN : Insert Conpany Number<br>
+                        Babulal Bhawan, Garikhana Chowk,<br>
+                        Harmu Road, Ranchi, Jharkhand, 834001<br>
+                        GSTIN/UN: 20AANCS0578B1ZO<br>
+                        E-mail: saielectrictrading@rediffmail.com
+                    </td>
+                    <td>Dated: <strong>29.03.2024</strong></td>
+                </tr>
+            </table>
+        </div>
+        <div class="invoice-section no-border">
+            <table>
+                <tr>
+                    <td colspan="2">TO,<br> J. K. Sales and Services<br> Alipur, Nayanagar, Haripal,<br> Hooghly, West Bengal - 712301<br>GSTIN: 19ECJPK1566G1ZC</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Buyer’s Order No.</td>
+                    <td class="border-bottom"></td>
+                    <td>Delivery Note Date</td>
+                </tr>
+                <tr>
+                    <td>Despatch Document No.</td>
+                    <td class="border-bottom"></td>
+                    <td>Destination</td>
+                </tr>
+                <tr>
+                    <td>Despatched through</td>
+                    <td class="border-bottom"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="invoice-section">
+            <table>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Particulars</th>
+                    <th>Days</th>
+                    <th>HSN/SAC</th>
+                    <th>Transport charge</th>
+                    <th>Quantity</th>
+                    <th>Hired Dg Rate/Month</th>
+                    <th>Month</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Hiring of 500 KVA DG Set @ ₹1,45,000/- Month<br>FROM- 09-03-24 to 31-03-24</td>
+                    <td>23</td>
+                    <td>997319</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>145000</td>
+                    <td>Mar</td>
+                    <td>1,07,581</td>
+                </tr>
+            </table>
+        </div>
+        <div class="invoice-section no-border">
+            <table>
+                <tr>
+                    <td class="text-right">Total</td>
+                    <td class="text-right">1,07,581</td>
+                </tr>
+                <tr>
+                    <td class="text-right">IGST @ 18%</td>
+                    <td class="text-right">19,365</td>
+                </tr>
+                <tr>
+                    <td class="text-right">Total amount</td>
+                    <td class="text-right">1,26,945</td>
+                </tr>
+            </table>
+        </div>
+        <div class="invoice-section no-border">
+            <p>Amount Chargeable (in word)<br>INR : One Lakh Twenty Six Thousand Nine Hundred Forty Five Only.</p>
+            <table>
+                <tr>
+                    <th>HSN/SAC</th>
+                    <th>Taxable value</th>
+                    <th>Integrated Tax</th>
+                </tr>
+                <tr>
+                    <td>997319</td>
+                    <td>1,07,581</td>
+                    <td>19,365</td>
+                </tr>
+            </table>
+        </div>
+        <div class="invoice-section no-border">
+            <p><strong>Tax Amount (in words):<br>INR : Nineteen Thousand Three Hundred Sixty Five Only.</strong></p>
+            <p>
+                A/C Name – SAI ELECTRIC & TRADING CO. PVT. LTD.<br>
+                A/C No.: 063102000023481<br>
+                IFS Code – IBKL0000063<br>
+                Branch - IDBI Bank Main Road, Ranchi
+            </p>
+            <p class="text-right">
+                <strong>Sai Electric & Trading Co. Pvt. Ltd.<br> 
+                <br>
+                Authorized Signatory</strong>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
